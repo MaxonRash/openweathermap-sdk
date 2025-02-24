@@ -10,8 +10,21 @@ This SDK can be used for obtaining current weather information and cities' geoco
 <dependency>
     <groupId>com.github.maxonrash</groupId>
     <artifactId>openweathermap-sdk</artifactId>
-    <version>1.0.4</version>
+    <version>1.1.2</version>
 </dependency>
+```
+
+Note: to be able to use dependency GitHub requires a private key to be set in `settings.xml` in your maven directory. On Windows OS it should be something like this - `C:\Users\username\.m2`. Content:  
+```xml
+<settings>
+<servers>
+    <server>
+        <id>github</id>
+	<username>{your_username}</username>
+	<password>{your_private_key}</password>
+    </server>
+</servers>
+</settings>
 ```
 
 ### Usage
