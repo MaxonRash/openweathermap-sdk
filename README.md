@@ -33,4 +33,6 @@ Note: to be able to use dependency GitHub requires a private key to be set in `s
 - Use method `retrieveCurrentWeatherJSON(cityName)` to receive current weather information for specified city  
 - Use method `getGeocodingInfoJSON(cityName)` to receive geocoding info for specified city
 
-A sample project with detailed examples can be found here: <a href="https://github.com/MaxonRash/openweathermap-sdk-usage-example">Sample project</a> 
+A sample project with detailed examples can be found here: <a href="https://github.com/MaxonRash/openweathermap-sdk-usage-example">Sample project</a>
+
+Also, there is some logging present, so it should be easier to test and understand what's going on during execution
