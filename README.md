@@ -19,3 +19,5 @@ This SDK can be used for obtaining current weather information and cities' geoco
 - Create an instance of `CurrentWeatherSDK`  
 - Use method `retrieveCurrentWeatherJSON(cityName)` to receive current weather information for specified city  
 - Use method `getGeocodingInfoJSON(cityName)` to receive geocoding info for specified city
+
+A sample project with detailed examples can be found here: <a href="https://github.com/MaxonRash/openweathermap-sdk-usage-example">Sample project</a> 
